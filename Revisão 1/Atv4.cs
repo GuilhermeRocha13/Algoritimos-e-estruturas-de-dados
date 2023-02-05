@@ -1,6 +1,6 @@
 using System;
 
-namespace MatrizDeVendas
+namespace revisao
 {
     class Program
     {
