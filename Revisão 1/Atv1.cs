@@ -7,7 +7,7 @@ namespace atv1
         static void Main(string[] args)
         {
 
-            Console.WriteLine(Func(666)); //passando um valor para a função 
+            Console.WriteLine(Func(666)); //passando um valor para a função e imprimindo o retoron
         }
 
         static double Func(double parm1)
