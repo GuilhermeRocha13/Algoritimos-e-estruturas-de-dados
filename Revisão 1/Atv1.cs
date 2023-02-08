@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace atv1
 {
@@ -7,13 +7,13 @@ namespace atv1
         static void Main(string[] args)
         {
 
-            Console.WriteLine(Func(666));
+            Console.WriteLine(Func(666)); //passando um valor para a função 
         }
 
-        static double Func(double caralho)
+        static double Func(double parm1)
         {
 
-            double volume = (4 * 3.14 * Math.Pow(caralho, 3) / 3);
+            double volume = (4 * 3.14 * Math.Pow(parm1, 3) / 3); //formula volume
 
 
             return volume;
