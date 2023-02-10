@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Digite a quantidade de pares de números:");
+        int contador = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < contador; i++)
+        {
+            
+            Console.WriteLine("Primeiro valor");
+            
+            int valor1 = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Segundo valor");
+
+            int valor2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Resultado = " + Math.Pow(valor1, valor2));
+        }
+    }
+}
